@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest-based Career and College Options</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Interest-based Career and College Options</h1>
+    </header>
+    <main>
+        <section id="interest-form">
+            <h2>Enter Your Interests</h2>
+            <form id="interests-form">
+                <label for="interests">Interests:</label>
+                <select id="interests" required>
+                    <option value="" disabled selected>Select your interests</option>
+                    <option value="technology">Technology</option>
+                    <option value="design">Design</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="medicine">Medicine</option>
+                    <option value="finance">Finance</option>
+                    <option value="arts">Arts</option>
+                    <option value="hospitality">Hospitality</option>
+                    <option value="science">Science</option>
+                    <option value="art">Art</option>
+                    <option value="music">Music</option>
+                    <option value="fashion">Fashion</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="business">Business</option>
+                    <option value="honors">Honors</option>
+                    <option value="english">English</option>
+                </select>
+                <button type="submit">Submit</button>
+                <button type="button" id="reset-btn">Reset</button>
+            </form>
+        </section>
+        <section id="career-options">
+            <h2>Career Options</h2>
+            <ul id="career-list">
+                <!-- Dynamic content will be added here -->
+            </ul>
+        </section>
+        <section id="college-options">
+            <h2>College Options in India</h2>
+            <ul id="college-list">
+                <li>
+                    <div class="college-name"></div>
+                    <div class="college-details">
+                        <p>Cut Off Rank: 100</p>
+                        <p>Location: Delhi</p>
+                        <!-- Add more details as needed -->
+                    </div>
+                </li>
+                <!-- Add more colleges with similar structure -->
+            </ul>
+        </section>
+    </main>
+    <script src="javas.js"></script>
+</body>
+</html>
